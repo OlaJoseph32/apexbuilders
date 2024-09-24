@@ -1,0 +1,536 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Media Queries */
+@media only screen and (max-width: 350px){
+    .contact-main-section{
+        margin-top: -5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-main-section form{
+        height: 90%;
+        width: 90%;
+    }
+    .contact-main-section form p{
+        font-size: 28px;
+    }
+    .contact-main-section form button{
+        width: 200px;
+        margin-left: 12%;
+    }   
+}
+@media only screen and (max-width: 400px){
+/* Media Queries for the Contact Header */
+    body{
+        background-color: black;
+    }
+    header{
+        height: 4em;
+    }
+    .branding {
+        width: 30%;
+        height: 80%;
+        /* background-color: antiquewhite; */
+    }
+    .navBar{
+        width: 70%;
+        height: 80%;
+        /* background-color: aquamarine; */
+    }
+    .branding .contactForm{
+        /* padding-left: 1%; */
+        font-size: 12px;
+    }
+    .branding h2{
+        font-size: 15px;
+    }
+    .navBar ul li a{
+        font-size: 14px;
+    }
+    .navBar ul li .gal{
+        padding-right: 10%;
+    }
+    nav {
+        width: 98%;
+        height: 90%;
+        /* background-color: brown; */
+    }
+
+/* Media for the contact main section */
+    .contact-main-section{
+        margin-top: -5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    form{
+        height: 90%;
+        width: 90%;
+    }
+    form h2{
+        font-size: .9rem;
+    }
+    form p{
+        font-size: 1rem;
+    }
+    form button{
+        width: 270px;
+        margin-left: 6.5%;
+    }
+
+/* Media for gallery Footer */
+   footer{
+        background-color:rgb(30, 29, 29);
+        margin-top: 2%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footerCon{
+        background-color: rgb(30, 29, 29);
+    }
+    .footer-con1, .footer-con2, .footer-con3, .footer-con4{
+        height: auto;
+        width: 100%;
+        padding: 5%;
+        /* line-height: ; */
+        background-color: rgb(30, 29, 29);
+    }
+    .footer-con1 .brandname{
+        color: rgb(190, 26, 26, 0.4);
+        font-size: 1.3rem;
+    }
+    .footer-con1 h2{
+        font-size: 1.5rem;
+    }
+    .footer-con1 p{
+        font-size: .8rem;
+    }
+    .footer-con2 i, .footer-con3 i{
+        font-size: 1rem;
+        margin-right: 10px;
+    }
+    .footer-con1 h2, .footer-con2 h2, .footer-con3 h2 {
+        font-size: .9rem;
+    }
+    .footer-con1 a, .footer-con2 a, .footer-con3 a {
+        font-size: .8rem;
+    }
+    .footer-con4 p {
+        text-align: center;
+        line-height: 25px;
+        font-size: .5rem;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+/* Media Queries for the Contact Header */
+    body{   
+        background-color: black;
+    }
+    header{ 
+        height: 4em;
+    }
+    .branding {
+        width: 30%;
+        height: 80%;
+        background-color: antiquewhite;
+    }
+    .navBar{
+        width: 70%;
+        height: 80%;
+        /* background-color: aquamarine; */
+    }
+    .branding .contactForm{
+        /* padding-left: 1%; */
+        font-size: 12px;
+    }
+    .branding h2{
+        font-size: 15px;
+    }
+    .navBar ul li a{
+        font-size: 14px;
+    }
+    .navBar ul li .gal{
+        padding-right: 10%;
+    }
+    nav {
+        width: 98%;
+        height: 90%;
+        /* background-color: brown; */
+    }
+
+/* Media for the contact main section */
+    .contact-main-section{
+        margin-top: -5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    form{
+        height: 90%;
+        width: 90%;
+    }
+    form h2{
+        font-size: 1.1rem;
+    }
+    form p{
+        font-size: 1rem;
+    }
+    form button{
+        width: 270px;
+        margin-left: 12.5%;
+    }
+/* Media for contact Footer */
+    footer{
+        background-color:rgb(30, 29, 29);
+        margin-top: 2%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footerCon{
+        background-color: rgb(30, 29, 29);
+    }
+    .footer-con1, .footer-con2, .footer-con3, .footer-con4{
+        height: auto;
+        width: 100%;
+        padding: 5%;
+        /* line-height: ; */
+        background-color: rgb(30, 29, 29);
+    }
+    .footer-con1 .brandname{
+        color: rgb(190, 26, 26, 0.4);
+        font-size: 1.3rem;
+    }
+    .footer-con1 h2{
+        font-size: 1.5rem;
+    }
+    .footer-con1 p{
+        font-size: .8rem;
+    }
+    .footer-con2 i, .footer-con3 i{
+        font-size: 1rem;
+        margin-right: 10px;
+    }
+    .footer-con1 h2, .footer-con2 h2, .footer-con3 h2 {
+        font-size: .9rem;
+    }
+    .footer-con1 a, .footer-con2 a, .footer-con3 a {
+        font-size: .8rem;
+    }
+    .footer-con4 p {
+        text-align: center;
+        line-height: 25px;
+        font-size: .5rem;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+/* Media Queries for the Contact Header */
+    body{
+        background-color: black;
+    }
+    header{
+        height: 4em;
+    }
+    .branding {
+        width: 20%;
+        height: 80%;
+        /* background-color: blue; */
+    }
+    .branding h2{
+        font-size: 15px;
+    }
+    .navBar ul li a{
+        font-size: 14px;
+    }
+    .navBar ul li .gal{
+        padding-right: 10%;
+    }
+    nav {
+        width: 78%;
+        height: 90%;
+    }
+
+/* Media for the contact main section */
+     .contact-main-section{
+        margin-top: -5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    form{
+        height: 90%;
+        width: 90%;
+    }
+    form p{
+        font-size: 28px;
+    }
+    form button{
+        width: 290px;
+        margin-left: 25.5%;
+    }
+
+/* Media for contact Footer */
+    footer{
+        background-color:rgb(30, 29, 29);
+        margin-top: 2%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footerCon{
+        background-color: rgb(30, 29, 29);
+    }
+    .footer-con1, .footer-con2, .footer-con3, .footer-con4{
+        height: auto;
+        width: 100%;
+        padding: 5%;
+        /* line-height: ; */
+        background-color: rgb(30, 29, 29);
+    }
+    .footer-con1 .brandname{
+        color: rgb(190, 26, 26, 0.4);
+        font-size: 1.3rem;
+    }
+    .footer-con1 h2{
+        font-size: 1.5rem;
+    }
+    .footer-con1 p{
+        font-size: .8rem;
+    }
+    .footer-con2 i, .footer-con3 i{
+        font-size: 1rem;
+        margin-right: 10px;
+    }
+    .footer-con1 h2, .footer-con2 h2, .footer-con3 h2 {
+        font-size: .9rem;
+    }
+    .footer-con1 a, .footer-con2 a, .footer-con3 a {
+        font-size: .8rem;
+    }
+    .footer-con4 p {
+        text-align: center;
+        line-height: 1;
+        font-size: .7rem;
+    }
+
+}
+@media only screen and (min-width: 767px) and (max-width: 992px){
+/* Media Queries for the Contact Header */
+    body{
+        background-color: black;
+    }
+    header{
+        height: 4em;
+    }
+    .branding {
+        width: 20%;
+        height: 80%;
+        /* background-color: blue; */
+    }
+    .branding h2{
+        font-size: 15px;
+    }
+    .navBar ul li a{
+        font-size: 14px;
+    }
+    .navBar ul li .gal{
+        padding-right: 10%;
+    }
+    nav {
+        width: 78%;
+        height: 90%;
+    }
+
+/* Media for the contact main section */
+    .contact-main-section{
+        margin-top: -5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    form{
+        height: 90%;
+        width: 90%;
+    }
+    form p{
+        font-size: 28px;
+    }
+    form button{
+        width: 290px;
+        margin-left: 29.5%;
+    }
+
+/* Media for contact Footer */
+    footer{
+        background-color:rgb(30, 29, 29);
+        margin-top: 2%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footerCon{
+        background-color: rgb(30, 29, 29);
+    }
+    .footer-con1, .footer-con2, .footer-con3, .footer-con4{
+        height: auto;
+        width: 100%;
+        padding: 5%;
+        /* line-height: ; */
+        background-color: rgb(30, 29, 29);
+    }
+    .footer-con1 .brandname{
+        color: rgb(190, 26, 26, 0.4);
+        font-size: 1.7rem;
+    }
+    .footer-con1 h2{
+        font-size: 1.5rem;
+    }
+    .footer-con1 p{
+        font-size: 1.2rem;
+    }
+    .footer-con2 i, .footer-con3 i{
+        font-size: 1.1rem;
+        margin-right: 10px;
+    }
+    .footer-con1 h2, .footer-con2 h2, .footer-con3 h2 {
+        font-size: 1.1rem;
+    }
+    .footer-con1 a, .footer-con2 a, .footer-con3 a {
+        font-size: 1rem;
+    }
+    .footer-con4 p {
+        text-align: center;
+        line-height: 1;
+        font-size: .9rem;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+/* Media Queries for the Contact Header */
+    body{
+        background-color: black;
+    }
+    header{
+        height: 5em;
+    }
+    .branding {
+        width: 15%;
+        /* background-color: blue; */
+    }
+    nav {
+        width: 82%;
+    }
+    
+/* Media for the contact main section */
+    .contact-main-section{
+        margin-top: -5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    form{
+        height: 90%;
+        width: 90%;
+    }
+    form p{
+        font-size: 28px;
+    }
+    form button{
+        width: 290px;
+        margin-left: 33%;
+    }
+
+/* Media for all contact Footer */
+    footer{
+        background-color:rgb(30, 29, 29);
+        margin-top: 2%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footerCon{
+        background-color: rgb(30, 29, 29);
+    }
+    .footer-con1, .footer-con2, .footer-con3, .footer-con4{
+        height: auto;
+        width: 100%;
+        padding: 5%;
+        /* line-height: ; */
+        background-color: rgb(30, 29, 29);
+    }
+    .footer-con1 .brandname{
+        color: rgb(190, 26, 26, 0.4);
+        font-size: 1.7rem;
+    }
+    .footer-con1 h2{
+        font-size: 1.5rem;
+    }
+    .footer-con1 p{
+        font-size: 1.2rem;
+    }
+    .footer-con2 i, .footer-con3 i{
+        font-size: 1.1rem;
+        margin-right: 10px;
+    }
+    .footer-con1 h2, .footer-con2 h2, .footer-con3 h2 {
+        font-size: 1.1rem;
+    }
+    .footer-con1 a, .footer-con2 a, .footer-con3 a {
+        font-size: 1rem;
+    }
+    .footer-con4 p {
+        text-align: center;
+        line-height: 1;
+        font-size: .9rem;
+    }
+
+}
+@media only screen and (min-width: 1200px) {
+/* Media Queries for the Contact Header */
+    body{
+        background-color: black;
+    }
+    header{
+        height: 8em;
+    }
+    .branding {
+        width: 15%;
+    }
+    nav {
+        width: 85%;
+    }
+
+/* Media for the contact main section */
+    .contact-main-section{
+        margin-top: -5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    form{
+        margin-top: 5%;
+        margin-bottom: 2%;
+        height: 90%;
+        width: 35%;
+    }
+    form p{
+        font-size: 28px;
+    }
+    form button{
+        width: 290px;
+        margin-left: 14%;
+    }
+
+/* Media for all contact Footer */
+    .footer-con1 h2, .footer-con2 h2, .footer-con3 h2 {
+        font-size: 20px;
+    }
+  
+    .footer-con4{
+        background-color: rgb(30, 29, 29);
+
+    }
+    .footer-con4 p {
+        font-size: 14px;
+    }
+
+}

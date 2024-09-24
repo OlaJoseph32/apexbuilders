@@ -1,0 +1,88 @@
+/* Carousel Slide animation */
+@keyframes slideInFromTop{
+    0% {
+      opacity: 0;
+      transform: translateY(-300px); /* Start above the element */
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0); /* End at its original position */
+    }
+}
+
+@keyframes slideInFromLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-1300px); /* Start left of the element */
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0); /* End at its original position */
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+      opacity: 0;
+      transform: translateX(1300px); /* Start right of the element */
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0); /* End at its original position */
+    }
+}
+
+.carousel-caption h2 {
+    opacity: 0;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+.carousel-caption p {
+    opacity: 0;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.carousel-caption a {
+    opacity: 0;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.slide-in-top {
+    animation-name: slideInFromTop;
+}
+
+.slide-in-left {
+    animation-name: slideInFromLeft;
+}
+
+.slide-in-right {
+    animation-name: slideInFromRight;
+}
+
+/* Quality slide from bottom */
+.container2 {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.container2 .visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Optional: To ensure that the container only animates once */
+@keyframes slideInBottom {
+    from {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
