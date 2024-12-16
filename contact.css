@@ -126,7 +126,7 @@ form input{
     outline: none;
 }
 
-form #text{
+form textarea{
     text-align: start;
     padding-top: -20%;
     height: 13em;
