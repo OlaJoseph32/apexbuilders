@@ -130,6 +130,7 @@ form textarea{
     text-align: start;
     padding-top: -20%;
     height: 13em;
+    width: 99%;
 }
 input[id="text"]::placeholder {
     position: absolute;
